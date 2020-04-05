@@ -1,60 +1,32 @@
-# Change Log
 
-## [2.1.2] 2020-02-11
-### Improvements, BugFixing
-- Fixed the broken links
-- Improvements and BugFixing for documentation
-- Change versions on CSS and JS files
 
-## [2.1.1] 2018-11-13
-### Improvements, BugFixing
-- Changes for responsive devices
-- Improvements and BugFixing for documentation
-- Change versions on CSS and JS files
-- Pro Documentation integrated in Free Version
-- Eliminated extra CSS and JS
+# Changelog
 
-## [2.1.0] 2018-06-13
-### Bug fixing
-- Card-chart fixed on Windows
-- Bug fixes for responsive devices
-- Small changes for components
 
-## [2.0.0] 2018-03-27
-### Bootstrap 4 update
-- Core base code on Bootstrap 4
-- Documentation code base written from scratch
-- Speed optimizations
-- Class changes : .card-block to .card-body
-    - .navbar-toggleable-* to .navbar-expand-*
-    - .hidden-*-down to .d-none .d-*-block
-    - .hidden-*-up to .d-*-none
-    - .checkbox to .form-check
-    - .radio to .form-check
-    - more class changes here:https://getbootstrap.com/docs/4.0/migration/
-- Bug fixes for responsive devices
-- Small changes for components
+## [1.0.0] 2018-09-26
+### Original Release
 
-## [1.2.0] 2017-09-08
-### BugFixing
-- added PerfectScrollbar for windows better scroll
-- added arrive.js library for dynamic content
-- fix issue with charts when resizing window
-- change size of buttons for notifications on mobile
-- added pagination style
-- fixed issue with Bootstrap modal
-- added fixed navbar
-- documentation updates
-- minor design fixes
+## [1.1.0] 2019-07-01
+### Bootstrap Update, Libraries Update
+- Bootstrap updated to `4.3.1`
+- libraries updated to latest versions
+- fixed issues
 
-## [1.1.1] 2017-02-08
-### MIT License
-- switched to MIT License
+## [1.1.1] 2019-12-20
+### Fixes
+- Fixed navbar classes
+- Fixed 'modal-' classes
+- Cleaned scss files
 
-## [1.1.0] 2016-11-10
-### New Page Added, Small Fixes
-- fix link in documentation
-- for those who want to upsell inside their dashboard we added a new page "Upgrade to PRO" with a pricing and options table
+## [1.1.2] 2020-02-04
+### Fixes
+- Fixed broken links
+- Added Upgrade to PRO Page
+- Readme updated
 
-## [1.0.0] 2016-09-21
-### Initial Release
+## [1.2.0] 2020-02-20
+### Improvments
+- New style for pages
+
+
+
