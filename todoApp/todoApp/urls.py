@@ -24,6 +24,9 @@ from drf_yasg import openapi
 router = routers.DefaultRouter()
 router.register(r'users', views.UserViewSet)
 router.register(r'groups', views.GroupViewSet)
+router.register(r'tasks', views.TaskViewSet)
+router.register(r'tasks-lists', views.TaskListViewSet)
+router.register(r'projects', views.ProjectViewSet)
 
 
 schema_view = get_schema_view(
@@ -38,7 +41,6 @@ schema_view = get_schema_view(
    public=True,
    permission_classes=(permissions.AllowAny,),
 )
-
 
 
 # Wire up our API using automatic URL routing.

@@ -123,3 +123,10 @@ USE_TZ = True
 
 STATIC_URL = os.path.join(BASE_DIR, 'static/')
 STATIC_ROOT = STATIC_URL
+
+REST_FRAMEWORK = {
+    'DEFAULT_PERMISSION_CLASSES': [
+        'rest_framework.permissions.IsAuthenticated',
+        'rest_framework.authentication.TokenAuthentication'
+    ]
+}
